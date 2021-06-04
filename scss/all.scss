@@ -1,0 +1,61 @@
+@import "bootstrap/bootstrap";
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 1px;
+}
+h1, h2, h3, h4, h5 {
+  letter-spacing: 2px;
+}
+small {
+  letter-spacing: 0.7px;
+  line-height: 20px;
+}
+.text-baloo {
+  font-family: 'Baloo Tamma 2', cursive;
+  letter-spacing: 0.2px;
+}
+.btn {
+  font-weight: 500;
+}
+.bg-input {
+  background-color: #F7F7F7;
+}
+.btn-primary {
+  color: $dark;
+  &:hover {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning;
+  }
+}
+.btn-outline-secondary {
+  border: 2px solid $secondary;
+  &:hover {
+    color: $secondary;
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+.product-img img {
+  border-radius: 35px;
+}
+.nav-tabs .nav-link {
+  color: $dark;
+  border: 0;
+  letter-spacing: 2px;
+  &.active {
+    color: $dark;
+    border-bottom: 2px solid $primary;
+    font-weight: 500;
+  }
+}
+.main-btns {
+  .btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .btn-outline-secondary:hover i{
+    color: $warning;
+  }
+}
