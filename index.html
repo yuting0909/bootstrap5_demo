@@ -148,7 +148,7 @@
       </div>
     </div>
     <div id="detail-information">
-      <nav class="bg-white border-top border-bottom position-sticky top-0" style="z-index: 999;">
+      <nav id="detail-nav" class="bg-white border-top border-bottom position-sticky top-0" style="z-index: 999;">
         <div class="container">
           <div class="nav nav-tabs border-0 justify-content-between justify-content-md-start" id="nav-tab"
             role="tablist">
@@ -500,11 +500,14 @@
                   <label for="selectedProject" class="form-label">贊助方案</label>
                   <select class="form-select bg-input border-0 ps-3 text-muted" aria-label="Default select example"
                     id="selectedProject" required>
-                    <option selected>請選擇一個方案</option>
+                    <option value="" selected>請選擇一個方案</option>
                     <option value="1">方案一</option>
                     <option value="2">方案二</option>
                     <option value="3">方案三</option>
                   </select>
+                  <div class="invalid-feedback">
+                    請選擇一個方案
+                  </div>
                 </div>
                 <div class="mb-3">
                   <label for="name" class="form-label">收件人姓名</label>
@@ -528,9 +531,9 @@
                   </div>
                 </div>
                 <div class="mb-3">
-                  <label for="selectedProject" class="form-label">付款方式</label>
+                  <label for="selectedPayment" class="form-label">付款方式</label>
                   <select class="form-select bg-input border-0 ps-3 text-muted" aria-label="Default select example"
-                    id="selectedProject" required>
+                    id="selectedPayment" required>
                     <option value="creditCard" selected>信用卡</option>
                     <option value="ATM">ATM轉帳</option>
                     <option value="COD">貨到付款</option>
@@ -629,8 +632,8 @@
       </div>
     </div>
   </main>
-  <div class="position-sticky bottom-0 d-block d-md-none" style="z-index: 999;">
-    <div class="position-relative bg-primary text-center" style="padding: 10px;">
+  <div id="mobileBottomBtn" class="position-sticky bottom-0 d-sm-none" style="z-index: 999;">
+    <div class="position-relative bg-primary text-center py-3">
       <a href="#donation-form" class="stretched-link text-dark fw-bold">贊助專案</a>
     </div>
   </div>
