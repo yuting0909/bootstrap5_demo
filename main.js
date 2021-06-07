@@ -29,9 +29,15 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 // mobile bottomButton scroll event
 const mobileBottomBtn = document.querySelector('#mobileBottomBtn');
 const donationForm = document.querySelector('#donation-form');
+
 window.addEventListener('scroll', () => {
-  // 當滑動至donationForm，按鈕消失
-  if (donationForm.getBoundingClientRect().top < 200) {
+  // 贊助表單中心點位置
+  const formPosition = donationForm.offsetTop + donationForm.offsetHeight / 2;
+  // 視窗底部座標
+  const currentBottom = window.scrollY + window.innerHeight;
+
+  // 當滑動至贊助表單中心點位置時，按鈕消失
+  if (currentBottom > formPosition) {
     mobileBottomBtn.style.display = 'none';
   } else {
     mobileBottomBtn.style.display = 'block';
