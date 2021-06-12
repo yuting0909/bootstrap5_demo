@@ -1,0 +1,11 @@
+// custom nav-tab style
+.nav-tabs .nav-link {
+  color: $dark;
+  border: 0;
+  letter-spacing: 2px;
+  &.active {
+    color: $dark;
+    border-bottom: 2px solid $primary;
+    font-weight: 500;
+  }
+}

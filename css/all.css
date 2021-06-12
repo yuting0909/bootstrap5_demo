@@ -11858,6 +11858,18 @@ fieldset:disabled .btn {
   color: #FF785E;
 }
 
+.nav-tabs .nav-link {
+  color: #636057;
+  border: 0;
+  letter-spacing: 2px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #636057;
+  border-bottom: 2px solid #FFDF65;
+  font-weight: 500;
+}
+
 header .modal .progress {
   height: 1px;
 }
@@ -11889,25 +11901,9 @@ small, .small {
   border-radius: 35px;
 }
 
-.donation-info .progress-bar {
-  width: 41%;
-}
-
 .main-btns .btn {
   padding-top: 12px;
   padding-bottom: 12px;
-}
-
-.nav-tabs .nav-link {
-  color: #636057;
-  border: 0;
-  letter-spacing: 2px;
-}
-
-.nav-tabs .nav-link.active {
-  color: #636057;
-  border-bottom: 2px solid #FFDF65;
-  font-weight: 500;
 }
 
 .social-media {
