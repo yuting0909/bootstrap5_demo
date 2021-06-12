@@ -1,0 +1,28 @@
+// header's layout
+header {
+  .modal .progress {
+    height: 1px;
+  }
+}
+
+//  text style
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 1px;
+}
+h1, h2, h3, h4, h5 {
+  letter-spacing: 2px;
+}
+small {
+  letter-spacing: 0.7px;
+  line-height: 20px;
+}
+.text-baloo {
+  font-family: 'Baloo Tamma 2', cursive;
+  letter-spacing: 0.2px;
+}
+
+// z-index
+.z-max {
+  z-index: 999;
+}

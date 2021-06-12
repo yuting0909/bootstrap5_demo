@@ -45,12 +45,12 @@
     z-index: 2;
   }
 
-  &:focus {
-    z-index: 3;
-    border-color: $accordion-button-focus-border-color;
-    outline: 0;
-    box-shadow: $accordion-button-focus-box-shadow;
-  }
+  // &:focus {
+  //   z-index: 3;
+  //   border-color: $accordion-button-focus-border-color;
+  //   outline: 0;
+  //   box-shadow: $accordion-button-focus-box-shadow;
+  // }
 }
 
 .accordion-header {

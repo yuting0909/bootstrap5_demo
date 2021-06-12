@@ -5123,14 +5123,6 @@ fieldset:disabled .btn {
   z-index: 2;
 }
 
-.accordion-button:focus {
-  z-index: 3;
-  border-color: #ffefb2;
-  outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 223, 101, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(255, 223, 101, 0.25);
-}
-
 .accordion-header {
   margin-bottom: 0;
 }
@@ -8543,11 +8535,19 @@ fieldset:disabled .btn {
 }
 
 .bg-body {
-  background-color: #fff !important;
+  background-color: #494846 !important;
 }
 
 .bg-white {
   background-color: #fff !important;
+}
+
+.bg-lighter {
+  background-color: #FEFEFE !important;
+}
+
+.bg-gray {
+  background-color: #E8E8DB !important;
 }
 
 .bg-transparent {
@@ -11830,31 +11830,8 @@ fieldset:disabled .btn {
   }
 }
 
-body {
-  font-family: 'Noto Sans TC', sans-serif;
-  letter-spacing: 1px;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-  letter-spacing: 2px;
-}
-
-small, .small {
-  letter-spacing: 0.7px;
-  line-height: 20px;
-}
-
-.text-baloo {
-  font-family: 'Baloo Tamma 2', cursive;
-  letter-spacing: 0.2px;
-}
-
 .btn {
   font-weight: 500;
-}
-
-.bg-input {
-  background-color: #F7F7F7;
 }
 
 .btn-primary {
@@ -11877,8 +11854,48 @@ small, .small {
   border-color: #FFDF65;
 }
 
+.btn-outline-secondary:hover i {
+  color: #FF785E;
+}
+
+header .modal .progress {
+  height: 1px;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  letter-spacing: 2px;
+}
+
+small, .small {
+  letter-spacing: 0.7px;
+  line-height: 20px;
+}
+
+.text-baloo {
+  font-family: 'Baloo Tamma 2', cursive;
+  letter-spacing: 0.2px;
+}
+
+.z-max {
+  z-index: 999;
+}
+
 .product-img img {
   border-radius: 35px;
+}
+
+.donation-info .progress-bar {
+  width: 41%;
+}
+
+.main-btns .btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .nav-tabs .nav-link {
@@ -11893,12 +11910,16 @@ small, .small {
   font-weight: 500;
 }
 
-.main-btns .btn {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.social-media {
+  height: 30px;
+  width: 30px;
 }
 
-.main-btns .btn-outline-secondary:hover i {
-  color: #FF785E;
+.project-card h2, .project-card .h2 {
+  font-size: 18px;
+}
+
+#donation-form .progress {
+  height: 3px;
 }
 /*# sourceMappingURL=all.css.map */

@@ -1,0 +1,25 @@
+//  custom button style
+.btn {
+  font-weight: 500;
+}
+
+.btn-primary {
+  color: $dark;
+  &:hover {
+    color: $white;
+    background-color: $warning;
+    border-color: $warning;
+  }
+}
+.btn-outline-secondary {
+  border: 2px solid $secondary;
+  &:hover {
+    color: $secondary;
+    background-color: $primary;
+    border-color: $primary;
+  }
+  &:hover i{
+    color: $warning;
+  }
+}
+

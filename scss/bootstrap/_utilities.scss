@@ -521,8 +521,10 @@ $utilities: map-merge(
       values: map-merge(
         $theme-colors,
         (
-          "body": $body-bg,
+          "body": $body-color,
           "white": $white,
+          "lighter": #FEFEFE,
+          "gray": #E8E8DB,
           "transparent": transparent
         )
       )

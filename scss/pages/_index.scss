@@ -1,0 +1,31 @@
+// index.html style
+.product-img img {
+  border-radius: 35px;
+}
+.donation-info .progress-bar {
+  width: 41%;
+}
+.main-btns .btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.nav-tabs .nav-link {
+  color: $dark;
+  border: 0;
+  letter-spacing: 2px;
+  &.active {
+    color: $dark;
+    border-bottom: 2px solid $primary;
+    font-weight: 500;
+  }
+}
+.social-media {
+  height: 30px; 
+  width: 30px;
+}
+.project-card h2 {
+  font-size: 18px;
+}
+#donation-form .progress {
+  height: 3px;
+}
