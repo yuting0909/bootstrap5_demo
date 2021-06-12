@@ -82,7 +82,7 @@
         "../scss/bootstrap/helpers/_text-truncation.scss",
         "../scss/bootstrap/utilities/_api.scss",
         "../scss/custom/_components.scss",
-        "../scss/_layout.scss",
+        "../scss/layouts/_layout.scss",
         "../scss/pages/_index.scss"
     ],
     "names": [],
